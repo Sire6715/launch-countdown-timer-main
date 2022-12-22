@@ -121,28 +121,48 @@ select {
     gap: 1rem;
 }
 
-.digits{
-    background-color: var(--Dark-desaturated-blue);
-    border: 2px;
-    border-radius: 6px;
+.digits {
+    position: relative;
 }
 
 .digits h1 {
     color: var(--Soft-red);
-    font-size: clamp(15px, 7vw, 12rem);
+    font-size: clamp(15px, 5vw, 12rem);
     font-weight: 700;
 }
+
 .digits p {
     color: var(--Grayish-blue);
     text-transform: uppercase;
-    font-size: clamp(8px, 1vw, .8rem);
+    font-size: clamp(5px, .7vw, .7rem);
     font-weight: 600;
 }
 
-.half{
-    width: 50%;
+.first__half{
+    background-color: var(--Dark-desaturated-blue);
+    padding-block: 17%;
+    padding-inline: 10%;
+    border-bottom: 0.1rem solid #2b2a2a;
+    border-radius: 6% 6% 11% 11%;
 }
 
-.attribution{
+.secoond__half {
+    background-color: var(--Dark-desaturated-blue);
+    height: 50%;
+    padding-block: 18%;
+    padding-inline: 10%;
+    border: 0px solid #000;
+    border-radius: 7% 11% 11% 7%;
+}
+
+span {
+    position: absolute;
+    top: 4%;
+    left: 17%;
+}
+
+
+
+.attribution {
     position: absolute;
 }
